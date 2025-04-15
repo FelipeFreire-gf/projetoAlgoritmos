@@ -1,0 +1,53 @@
+repo_url: https://github.com/FelipeFreire-gf/projetoAlgoritmos.git
+repo_name: 2025.1 - Projeto de Algoritmos
+
+site_name: Projeto de Algoritmos
+
+nav:
+  - Home: index.md
+
+  - Grafos 1: 
+    - Introdução: "grafos_1/introducao_g1.md"
+    - Projetos Desenvolvidos: "grafos_1/grafos_g1.md"
+    
+  - Grafos 2:
+    - Introdução: "grafos_2/introducao_g2.md" 
+    - Projetos Desenvolvidos: "grafos_2/grafos_g2.md"
+  
+
+theme:
+  logo: assets/paico.ico
+  font:
+    text: Montserrat
+  name: material
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.expand
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  icon:
+    repo: fontawesome/brands/git-alt
